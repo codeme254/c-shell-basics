@@ -7,3 +7,9 @@ A process is an instance of an executing program, that has a unique process ID. 
 
 ## getppid()
 This method returns the id of the parent process, the id of the parent process will always be the same
+
+## shell script that prints the maximum value a process id can be
+```bash
+#!/bin/bash
+cat /proc/sys/kernel/pid_max
+```
