@@ -18,8 +18,8 @@ cat /proc/sys/kernel/pid_max
 The command line arguements are passed through the main function:
 ```c
 int main(int ac, char **av)
-	```
-**av** is a **NULL** terminated array of strings
+```
+__av__ is a **NULL** terminated array of strings
 
 **ac** is the number of items in **av**
 
